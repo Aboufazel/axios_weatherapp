@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 80vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.NightBg{
+  background-image: url(./assets/pics/sunset-background-featuring-sky-clouds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
