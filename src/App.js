@@ -6,7 +6,6 @@ import CityCard from "./components/CityCard/CityCard";
 import {cityData} from "./cityData/cityData";
 
 
-
 function App() {
 
   const ShirazDetail = async ()=>{
