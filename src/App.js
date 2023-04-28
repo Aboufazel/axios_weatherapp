@@ -19,7 +19,11 @@ function App() {
   } , [])
 
   return (
-    <div className={"container flex flex-col items-center lg:w-max-[1800px] w-full"} style={{height:"94.3vh"  ,padding:"20px"}}>
+    <div className={"container flex flex-col items-center lg:w-max-[1800px] w-full"} style={{padding:"20px"}}>
+       <CityCard/>
+       <CityCard/>
+       <CityCard/>
+       <CityCard/>
        <CityCard/>
     </div>
   );
