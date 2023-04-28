@@ -3,6 +3,7 @@ import {useEffect} from "react";
 import "./index.css";
 import "./App.css"
 import CityCard from "./components/CityCard/CityCard";
+import {cityData} from "./cityData/cityData";
 
 
 
@@ -20,11 +21,13 @@ function App() {
 
   return (
     <div className={"container flex flex-col items-center lg:w-max-[1800px] w-full"} style={{padding:"20px"}}>
-       <CityCard/>
-       <CityCard/>
-       <CityCard/>
-       <CityCard/>
-       <CityCard/>
+        {
+            cityData.map(item => (
+                <div key={`city-card-show-first${item.id}`}>
+                    <CityCard name={item.name}/>
+                </div>
+            ))
+        }
     </div>
   );
 }
