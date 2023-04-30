@@ -20,3 +20,17 @@ code {
     monospace;
 }
 
+
+input{
+  background: none;
+  border: none;
+  outline: none;
+}
+
+
+.searchInput{
+  background: linear-gradient(168.44deg, rgba(46, 51, 90, 0.26) 1.62%, rgba(28, 27, 51, 0.26) 95.72%);
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
