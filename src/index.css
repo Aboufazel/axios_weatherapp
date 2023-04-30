@@ -4,7 +4,7 @@
 
 body {
   position: relative;
-  background-image: url(./assets/pics/sunset-background-featuring-sky-clouds.jpg);
+  background: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
