@@ -31,7 +31,7 @@ function App() {
         </button>
 
 
-        <input type={"search"} placeholder={"Search for a city or airport"} className={"w-full ml-[4px]"}/>
+        <input type={"search"} placeholder={"Search for a city or airport"} className={"w-full ml-[4px] text-amber-50"}/>
       </div>
         {
             cityData.map(item => (
