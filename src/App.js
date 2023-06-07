@@ -8,6 +8,8 @@ import {cityData} from "./cityData/cityData";
 
 function App() {
 
+  let isLogin = false;
+
   const ShirazDetail = async ()=>{
     const data = await  handleGetOneDayWeather("shiraz");
     console.log(data)
@@ -40,6 +42,10 @@ function App() {
                 </div>
             ))
         }
+
+      {
+        isLogin && alert("hello abbas")
+      }
     </div>
   );
 }
