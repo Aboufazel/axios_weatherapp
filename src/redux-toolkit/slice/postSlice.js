@@ -14,14 +14,14 @@ export const fetchPosts = createAsyncThunk('posts/fetch' , async ()=>{
 
 
 const initialState = {
-    postList:[],
+    cityListList:[],
     fetchingPosts:false,
     errorMessage:null,
 }
 
 
 const postSlice = createSlice({
-    name:"posts",
+    name:"cityCard",
     initialState,
 
     extraReducers:{
